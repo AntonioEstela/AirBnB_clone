@@ -2,7 +2,7 @@
     height: 70px;
     width: 100%;
     background-color: white;
-    border: 1px solid #dddddd;
+    border: 1px solid #DDDDDD;
     border-radius: 4px;
     position: relative;
 }
@@ -13,7 +13,7 @@ button {
     position: absolute;
     font-size: 18px;
     background-color: #FF5A5F;
-    color: #ffffff;
+    color: #FFFFFF;
     height: 48px;
     width: 20%;
     border: 0px;
@@ -42,7 +42,7 @@ section.filters div.locations {
     float: left;
     height: 100%;
     width: 25%;
-    border-right: 1px solid #dddddd;
+    border-right: 1px solid #DDDDDD;
 }
 
 section.filters div.amenities {

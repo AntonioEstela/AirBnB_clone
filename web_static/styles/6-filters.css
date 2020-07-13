@@ -38,31 +38,31 @@ button:hover {
 
 }
 
-section.filters div.locations {
+.locations {
     float: left;
     height: 100%;
     width: 25%;
     border-right: 1px solid #DDDDDD;
 }
 
-section.filters div.amenities {
+.amenities {
     float: left;
     height: 100%;
     width: 25%;
 }
 
-div.locations h3.title, div.amenities h3.title {
+.title {
     font-weight: 600;
     margin-left: 40px;
 }
 
-div.locations h4.subtitle, div.amenities h4.subtitle {
+.subtitle {
     font-weight: 400;
     margin-left: 40px;
     margin-top: -15px;
 }
 
-ul.popover{
+.popover{
 
     position: relative;
     z-index: 3;
@@ -90,36 +90,35 @@ ul.popover{
 
 }
 
-.filters ul.popover li.locations_popover {
+.locations_popover {
     margin-top: -12px;
     margin-left: 10%;
 }
-
-.filters ul.popover li.title_popover {
+.title_popover {
     margin-top: 40px;
 }
 
-.filters ul.popover li.title_popover_2 {
+.title_popover_2 {
     margin-top: 14px;
 }
 
-.filters ul.popover li.locations_popover_2 {
+.locations_popover_2 {
     margin-left: 10%;
     margin-top: -12px;
     margin-bottom: 40px;
 }
 
-.filters div.amenities ul.popover li p.content_popover_1 {
+.content_popover_1 {
     margin-top: 30px;
     margin-bottom: -5px;
 }
 
-.filters div.amenities ul.popover li p.content_popover_2 {
+.content_popover_2 {
     margin-bottom: 30px;
 
 }
 
-.filters div.amenities ul.popover li p.content_popover {
+.content_popover {
     margin-top: 10px;
     margin-bottom: -5px;
 }

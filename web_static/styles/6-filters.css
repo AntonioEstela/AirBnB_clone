@@ -1,0 +1,125 @@
+.filters {
+    height: 70px;
+    width: 100%;
+    background-color: white;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    position: relative;
+}
+
+button {
+
+    top: 10px;
+    position: absolute;
+    font-size: 18px;
+    background-color: #FF5A5F;
+    color: #ffffff;
+    height: 48px;
+    width: 20%;
+    border: 0px;
+    border-radius: 4px;
+    right: 30px;
+
+}
+
+button p {
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+
+}
+
+button:hover {
+
+    opacity: 90%;
+
+}
+
+section.filters div.locations {
+    float: left;
+    height: 100%;
+    width: 25%;
+    border-right: 1px solid #dddddd;
+}
+
+section.filters div.amenities {
+    float: left;
+    height: 100%;
+    width: 25%;
+}
+
+div.locations h3.title, div.amenities h3.title {
+    font-weight: 600;
+    margin-left: 40px;
+}
+
+div.locations h4.subtitle, div.amenities h4.subtitle {
+    font-weight: 400;
+    margin-left: 40px;
+    margin-top: -15px;
+}
+
+ul.popover{
+
+    position: relative;
+    z-index: 3;
+    list-style: none;
+    visibility: hidden;
+    width: 83.5%;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+    background: #FAFAFA;
+	padding-bottom: 30px;
+}
+
+.amenities ul.popover {
+    margin-left: -1px;
+}
+
+.locations ul.popover {
+    margin-right: -1px;
+
+}
+
+.filters div:hover ul.popover{
+
+    visibility: visible;
+
+}
+
+.filters ul.popover li.locations_popover {
+    margin-top: -12px;
+    margin-left: 10%;
+}
+
+.filters ul.popover li.title_popover {
+    margin-top: 40px;
+}
+
+.filters ul.popover li.title_popover_2 {
+    margin-top: 14px;
+}
+
+.filters ul.popover li.locations_popover_2 {
+    margin-left: 10%;
+    margin-top: -12px;
+    margin-bottom: 40px;
+}
+
+.filters div.amenities ul.popover li p.content_popover_1 {
+    margin-top: 30px;
+    margin-bottom: -5px;
+}
+
+.filters div.amenities ul.popover li p.content_popover_2 {
+    margin-bottom: 30px;
+
+}
+
+.filters div.amenities ul.popover li p.content_popover {
+    margin-top: 10px;
+    margin-bottom: -5px;
+}

@@ -1,0 +1,19 @@
+footer {
+    text-align: center;
+    background-color: white;
+    height: 60px;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    z-index: 4;
+    border-top: #cccccc solid 1px;
+}
+
+footer p {
+    position: absolute;
+    text-align: center;
+    top: 10%;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
